@@ -1,0 +1,35 @@
+/****************MAIN******************/
+body {
+    background-color: beige;
+    margin: 0 auto;
+    padding: 5px 20px 5px 20px; 
+}
+
+/****************NAVIGATION************/
+
+nav {
+    border: solid grey 1px;
+    /*border-right: solid grey 1px;*/
+    width: 45%;
+    background-color: lightsteelblue;
+}
+nav li {
+    list-style: none;
+    display: inline;
+
+}
+nav a {
+ text-decoration: none;
+ padding: 20px;
+ line-height: 1.5em;
+ color: black;
+ font-size: 1.25em;
+ /*text-align: justify;*/   
+}
+
+nav a:hover {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+    background-color: lightslategrey;
+}
