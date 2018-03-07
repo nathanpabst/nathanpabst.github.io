@@ -4,7 +4,13 @@ body {
     margin: 0 auto;
     padding: 5px 20px 5px 20px; 
 }
-
+/* .main-container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #96CDFB;
+    border: solid 5px white;
+} */
 /****************NAVIGATION************/
 
 nav {
