@@ -1,10 +1,10 @@
 const writeToDom = (domString, divId) => {
-    document.getElementById(divId).innerHTML += blogsString;
+    document.getElementById(divId).innerHTML += domString;
 };
 
 const createBlogPosts = (myBlogsArray) => {
     let domString = "";
-    myBlogsArray.forEach((blog) => {
+    myBlogsArray.forEach((blogs) => {
         domString += `<div id="blog-'+ (i+1) +'">`;
         domString +=   `<h3>${blogs.title}</h3>`;
         domString +=   `<h4>${blogs.date}</h4>`;
@@ -13,8 +13,6 @@ const createBlogPosts = (myBlogsArray) => {
     });           
     writeToDom(domString, "blogs");
 };
-
-createBlogPosts(blog);
 
 function executeThisFunctionAfterFileLoads (){
     const data = JSON.parse(this.responseText);
@@ -29,7 +27,7 @@ const startApplication = () => {
     let myRequest = new XMLHttpRequest();
     myRequest.addEventListener("load", executeThisFunctionAfterFileLoads);
     myRequest.addEventListener("error", WTF);
-    myRequest.open("GET", "blogs.json");
+    myRequest.open("GET", "javascripts/db/blogs.json");
     myRequest.send();
 };
 

@@ -1,16 +1,15 @@
 
 const writeToDom = (domString, divId) => {
-    document.getElementById(divId).innerHTML = domString;
-    myDiv.innerHTML += domString;
+    document.getElementById(divId).innerHTML += domString;
 };
 
 const createProjectCards = (projectsArray) => {
-    var domString = "";
-    projectsArray.forEach((project) => {
-        domString += `<div class = "project" id="project-'+ (i+1) +'">`;
+    let domString = "";
+    projectsArray.forEach((projects) => {
+        // domString += `<div class = "project" id="project-'+ (i+1) +'">`;
+        domString +=   `<div class="project">`
         domString +=   `<h3>${projects.title}</h3>`;
-        domString +=   `<img src="'${projects.imageUrl} + 
-          '" width="300px">`;
+        domString +=   `<img class="image" src="${projects.imageUrl}">`;
         domString +=   `<p>${projects.description}</p>`;
         domString +=   `<a href="">View project</a>`;
         domString += `</div>`
@@ -31,8 +30,8 @@ const startApplication = () => {
   let myRequest = new XMLHttpRequest();
   myRequest.addEventListener("load", executeThisFunctionAfterFileLoads);
   myRequest.addEventListener("error", WTF);
-  myRequest.open("GET", projects.json);
+  myRequest.open("GET", "javascripts/db/projects.json");
   myRequest.send();
-}
+};
 
 startApplication();
