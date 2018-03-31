@@ -1,8 +1,7 @@
 # Personal Site
 
 ## Description
-In this sick and twisted world, certain zoo animals have the resolve and wherewithal to escape from their cages. The beasts shown below will have free reign of the zoo, and depending on their diet, eat their pals and enemies. If a caged animal is in danger of being eaten, their card will turn green until the beast is captured. Once captured, all cards will reset to their normal settings.     
-This project was intended to introduce us to JSON and XHR as well as strengthen our skills with ES6, functions and event-listeners.  
+  
 
 ## Screenshots
 ![Contact Info]()
