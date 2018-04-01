@@ -22,6 +22,12 @@
         "title": "Week Six",
         "date": "3/24/18",
         "post": "This week we covered ES6, DOM interaction and markdown. The new ES6 features will take some time to adjust to, but I'm sure it will be worth it in terms of ease of use, simplification, etc. DOM interaction is a mind-blowing concept..so cool! This concept allows us to respond to how the user is interacting with the page. I learned the hard way the importance of properly placed event listeners. Event listeners allow us to keep our JavaScript from running until the user has had a chance to interact with a particular event, such as keyboard and mouse events. Additionally, we learned how to target different elements in our HTML. For example, using the parentNode attribute to target children and descendents. Last, but not least, we covered Markdown. More specifically, formatting and including content that will make our README.md files look professional. With each passing week, and new topic learned, I am amazed at the number of tools available to developers. There is so much more this it than coding. Excited to see what's next."
+        },
+        {
+        "id": "blog5",
+        "title": "Week Seven",
+        "date": "4/01/18",
+        "post": "This week we were introduced to XML HTTP Requests or XHR, which is a black-magic way of retrieving data from a server. XHR Request are asynchronous, which typically take more time to return. For efficiency sake, we can use callback functions which allow our code to continue running while the XHR request is being processed. Once the request is returned from the server, the callback function can complete its tasks. An XHR request includes five lines of code: a constructor function to create the new request, a function to add an event listener and execute the code upon completion, a function that listens for load errors, an open function that tells the server what to do with the data and where to find the data, the final line initializes and executes the entire request. This has been a very challenging week of material. There is so much to learn and absorb. Feeling very overwhelmed this week, but hopeful that what we are learning will make more sense with time and repetition."
         }]
     }
         
