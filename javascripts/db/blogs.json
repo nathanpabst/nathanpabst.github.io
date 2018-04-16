@@ -34,7 +34,11 @@
         "title": "Week Eight",
         "date": "4/09/18",
         "post": "This week we started using Bootstrap, an open-source toolkit that is used to develop with CSS, HTML, and JavaScript. For our Superheroes project, we used Bootstrap for our navbar, buttons, and creating the superhero panels. Bootstrap seems to have really great documentation, which makes it easy to find the tools you're looking for. I look forward to reading up on all that it offers and applying it to future projects."
+        },
+        {
+        "id": "blog7",
+        "title": "Week nine",
+        "date": "4/15/18",
+        "post": "Week nine we were introduced to task runners and browserify. Setting up new projects now includes individual directories for javascript files, lib files (i.e. Gruntfile.js, package.json, and .eslintrc.json), CSS files, and a npm install for grunt. The new process is infinitely more complex with several new steps to remember and a lot of room for error. We've worked through several new setups over the past week and I think the benefits will outweigh the extra steps once I memorize the process. Another thing that has been a challenge this week has been figuring out how to connect all of dots through module.exports. A couple things I found very helpful this week were ESlint and the alumni table. Looking forward to having more interaction with, and learning from, peeps who have completed the NSS bootcamp."
         }]
-    }
-        
-    
+    }    
