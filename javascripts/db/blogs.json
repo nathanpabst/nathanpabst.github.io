@@ -63,12 +63,12 @@
         "id": "blog11",
         "title": "Week Fourteen",
         "date": "5/22/18",
-        "post": "This week we were introduced to Promises. Promises help control the flow of an application, particularly one with asynchronous javascript, with the added benefit of letting you know once a particular task is complete. Promises also allow you to establish a chain of command, which is particularly useful when you need a first set of data to return before moving on to the second. Setting a Promise doesn't seem all that different, in terms of coding, than the XHMHtttpRequest calls we've been doing up to this point. Instead of using 'success' and 'fail', we now use include 'resolve' and 'reject' functions and we have the added benefit or setting the order of commands and even running promises in parallel."
+        "post": "This week we were introduced to Promises. Promises help control the flow of an application, particularly one with asynchronous javascript, with the added benefit of informing you once a particular task is complete. Promises also allow you to establish a chain of command, which is particularly useful when you need a first set of data to return before moving on to the second. Setting a Promise doesn't seem all that different, in terms of coding, than the XHMHtttpRequest calls we've been doing up to this point. Instead of using 'success' and 'fail', we now use include 'resolve' and 'reject' functions and we have the added benefit or setting the order of commands and even running promises in parallel."
         },
         {
         "id": "blog12",
         "title": "Week Fifteen",
         "date": "5/29/18",
-        "post": "This week we were introduced to requesting data through an Application Programming Interface, or API as opposed to calling the data we were previously manually-building in .json files. We covered a few HTTP verbs like: POST, GET, PUT, and DELETE commands (a.k.a CRUD), response codes from our request, and how to read query strings in URLs. I'm Very excited about possibilities available to us, as developers, through the use of APIs. The most important lesson I learned this week, is to hide the file that contains your API key in the .gitignore file."
+        "post": "This week we were introduced to requesting data through an Application Programming Interface, or API, as opposed to calling the data we were previously manually-building in .json files. We covered a few important HTTP verbs like: POST, GET, PUT, and DELETE commands (a.k.a CRUD), how to read response codes from our request,and how to read query strings in URLs. I'm very excited about possibilities available to us, as developers, through the use of APIs. The most important lesson I learned this week, is to hide the file that contains your API key in the .gitignore file."
         }]
     }
