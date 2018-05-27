@@ -3,7 +3,7 @@
         "id": "blog1",
         "title": "Week One",
         "date": "02/27/2018",
-        "post": "Our focus this week, in addition to HTML and CSS, was the Command Line and GitHub. Truth be told, I didn't know either existed until a few months ago. So needlesss to say, it has been an eye-opening seven days. The Command Line...whoa. I thought we were past the black-screen DOS days, but I'm learning that it is actually a very powerful tool that offers more control, access to applications that are otherwise unavailable, and the ability to control the mind of servers through scripts. I also learned a few funny acronyms like 'man command', 'touch' and 'mkdir'. It's not a folder, Bill... It's a directory! We can't and won't let you win this battle. ...GitHub... HTML is my pal and I'm beginning to understand how to name and contain the elements so that they can be styled later, but CSS--and more specifically--positioning elements on a page is seemingly the end of me." 
+        "post": "Our focus this week, in addition to HTML and CSS, was the Command Line and GitHub. Truth be told, I didn't know either existed until a few months ago. So needlesss to say, it has been an eye-opening seven days. The Command Line...whoa. I thought we were past the black-screen DOS days, but I'm learning that it is actually a very powerful tool that offers more control, access to applications that are otherwise unavailable, and the ability to control the mind of servers through scripts. I also learned a few funny acronyms like 'man command', 'touch' and 'mkdir'. It's not a folder, Bill... It's a directory! We can't and won't let you win this battle. ...GitHub... HTML is my pal and I'm beginning to understand how to name and contain the elements so that they can be styled later, but CSS--and more specifically--positioning elements on a page is seemingly the end of me."
         },
         {
         "id": "blog2",
@@ -15,7 +15,7 @@
         "id": "blog3",
         "title": "Week Four",
         "date": "03/12/18",
-        "post": "This week we covered advanced JavaScript and GitHub for teams. Functions are starting to make a little more sense. Although, I still get hung up on small issues like naming the variables and parameters. We also watched Zoe, Callan, and Lauren use GitHub to create and manage a project, which was pretty cool. I learned how to work with a team to plan a project and then use GitHub as a project management tool. For example, creating a project, adding issues and styling tickets to include the story, acceptance criteria, and technical notes. For our group project, we only did the planning stage together. Next week we will begin splitting tickets among the team and reviewing each others work, which should be very interesting." 
+        "post": "This week we covered advanced JavaScript and GitHub for teams. Functions are starting to make a little more sense. Although, I still get hung up on small issues like naming the variables and parameters. We also watched Zoe, Callan, and Lauren use GitHub to create and manage a project, which was pretty cool. I learned how to work with a team to plan a project and then use GitHub as a project management tool. For example, creating a project, adding issues and styling tickets to include the story, acceptance criteria, and technical notes. For our group project, we only did the planning stage together. Next week we will begin splitting tickets among the team and reviewing each others work, which should be very interesting."
         },
         {
         "id": "blog4",
@@ -58,5 +58,17 @@
         "title": "Week Twelve",
         "date": "5/15/18",
         "post": "This week we were introduced to jQuery for DOM manipulation and Ajax for XHR calls. Really excited about both of these new techniques. With the introduction of jQuery, we are essentially un-learning the traditional way of writing the following commands: .addEventListener, document.getElementBy.., traversing techniques like .parentNode.parentNode.children[0], etc. jQuery seems to be a library with abbreviated--more intuitive--JavaScript commands. jQuery can reduce several lines of plain JavaScript into a single line. Replacing XHR calls with Ajax has also been a revelation. We're working on a project this week to put these new techniques into practice. It's been a challenge to un-learn some of the code I'd typically write, but I can see that once I become accustomed to the new code it will make my life much easier."
+        },
+        {
+        "id": "blog11",
+        "title": "Week Fourteen",
+        "date": "5/22/18",
+        "post": "This week we were introduced to Promises. Promises help control the flow of an application, particularly one with asynchronous javascript, and let you know once they've completed their task. Promises also allow you to establish a chain of commanc, which is particularly useful when you need a first set of data to return before moving on to the second. Setting a Promise doesn't seem all that different, in terms of coding, than the XHMHtttpRequest calls we've been doing up to this point. Instead of using 'success' and 'fail' , we now use include 'resolve' and 'reject' functions and we have the added benefit or setting the order of commands and even running promises in parallel."
+        },
+        {
+        "id": "blog12",
+        "title": "Week Fifteen",
+        "date": "5/29/18",
+        "post": "This week we were introduced to jQuery for DOM manipulation and Ajax for XHR calls. Really excited about both of these new techniques. With the introduction of jQuery, we are essentially un-learning the traditional way of writing the following commands: .addEventListener, document.getElementBy.., traversing techniques like .parentNode.parentNode.children[0], etc. jQuery seems to be a library with abbreviated--more intuitive--JavaScript commands. jQuery can reduce several lines of plain JavaScript into a single line. Replacing XHR calls with Ajax has also been a revelation. We're working on a project this week to put these new techniques into practice. It's been a challenge to un-learn some of the code I'd typically write, but I can see that once I become accustomed to the new code it will make my life much easier."
         }]
-    }    
+    }
