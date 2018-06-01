@@ -70,5 +70,11 @@
         "title": "Week Fifteen",
         "date": "5/29/18",
         "post": "This week we were introduced to requesting data through an Application Programming Interface, or API, as opposed to calling the data we were previously manually-building in .json files. We covered a few important HTTP verbs like: POST, GET, PUT, and DELETE commands (a.k.a CRUD), how to read response codes from our request,and how to read query strings in URLs. I'm very excited about possibilities available to us, as developers, through the use of APIs. The most important lesson I learned this week, is to hide the file that contains your API key in the .gitignore file."
+        },
+        {
+        "id": "blog13",
+        "title": "Week Sixteen",
+        "date": "6/01/18",
+        "post": "This week we installed Firebase in a few of our projects and then talked about how to use it as a database to store and retrieve our information. We learned to setup and use relational data collections instead of nesting or using arrays inside our data models and discussed using the CRUD method to create, read, update, and delete information to/from our database. Next week we will dive deeper into updating and deleting information from Firebase. Good times."
         }]
     }
