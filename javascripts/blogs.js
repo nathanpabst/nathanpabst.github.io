@@ -1,16 +1,15 @@
-// function executeThisFunctionAfterFileLoads (){
-//     const data = JSON.parse(this.responseText);
-//     createBlogPosts(data.blogs);
-// }
+const loadAllBlogs = () => {
+  return new Promise((resolve, reject) => {
+    $.get('./db/blogs.json')
+      .done((data) => {
+        resolve(data.blogPosts);
+      })
+      .fail((error) => {
+        reject('error, dang!', error);
+      });
+  });
+};
 
-// function WTF(){
-//     console.log('Oops! Something went wrong.');
-// }
-
-// const startApplication = () => {
-//     let myRequest = new XMLHttpRequest();
-//     myRequest.addEventListener("load", executeThisFunctionAfterFileLoads);
-//     myRequest.addEventListener("error", WTF);
-//     myRequest.open("GET", "javascripts/db/blogs.json");
-//     myRequest.send();
-// };
+module.exports = {
+  loadAllBlogs,
+};

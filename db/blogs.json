@@ -1,5 +1,5 @@
 {
-    "blogs": [{
+    "blogPosts": [{
         "id": "blog1",
         "title": "Week One",
         "date": "02/27/2018",
