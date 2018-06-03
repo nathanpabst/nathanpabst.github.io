@@ -1,13 +1,12 @@
 /****************MAIN******************/
 body {
-    background-color: ##6699CC;
+    background-color: #6699CC;
     margin: 0 auto;
-    padding: 5px 20px 5px 20px; 
+    /* padding: 5px 20px 5px 20px; */
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 14px;
     line-height: 125%;
     position: relative;
-    width: 60%;
 }
 
 .project {
@@ -26,9 +25,9 @@ body {
 } */
 /****************NAVIGATION************/
 
-nav {
+/* nav {
     border: solid grey 1px;
-    /*border-right: solid grey 1px;*/
+    border-right: solid grey 1px;
     width: 75%;
     background-color: lightsteelblue;
     text-align: justify;
@@ -44,7 +43,7 @@ nav a {
  line-height: 1.5em;
  color: black;
  font-size: 1.25em;
- /*text-align: justify;*/   
+ text-align: justify;
 }
 
 nav a:hover {
@@ -52,4 +51,4 @@ nav a:hover {
     font-size: 1.2em;
     font-weight: 400;
     background-color: lightslategrey;
-}
+} */
