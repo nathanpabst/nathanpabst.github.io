@@ -1,14 +1,25 @@
 const blogs = require('./blogs');
 const printBlogPosts = require('./blogDom');
 
-const initializer = () => {
+const firebaseKey = '';
+
+const setKey = (key) => {
+  firebaseKey = key;
+};
+
+const setAllBlogPosts = () => {
   blogs.loadAllBlogs().then((data) => {
-    $('#blogs').append(printBlogPosts(data.blogPosts));
+    $('.post').append(printBlogPosts(data.blogPosts));
   }).catch((error) => {
     console.error('error', error);
   });
 };
 
+const initializer = () => {
+  setAllBlogPosts();
+};
+
 module.exports = {
   initializer,
+  setKey,
 };

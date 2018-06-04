@@ -1,5 +1,5 @@
-const initializer = require('./data');
+const data = require('./data');
 
 $(document).ready(() => {
-  initializer();
+  data.initializer();
 });

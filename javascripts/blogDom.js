@@ -1,13 +1,18 @@
 const printBlogPosts = (blogPosts) => {
   let output = '';
   blogPosts.forEach((post) => {
-    output += `<div id="blog-'+ (i+1) +'">`;
-    output +=   `<h3>${blogPosts.title}</h3>`;
-    output +=   `<h4>${blogPosts.date}</h4>`;
-    output +=   `<p>${blogPosts.post}</p>`;
-    output += `</div>`;
+    output +=   `<div class="post">
+    output +=     <h2>${blogPosts.title}</h2>
+    output +=     <p>${blogPosts.post}</p>
+    output +=   </div>
+    output +=   <p class="byline"><span class="date">${blogPosts.date}</span></p>
+    output += </div>`;
   });
-  return output;
+  printToDom(output);
+};
+
+const printToDom = (posts) => {
+  $('.post').html(posts);
 };
 
 module.exports = {
