@@ -1,15 +1,16 @@
-const blogs = require('./blogs');
-const printBlogPosts = require('./blogDom');
+// const blogs = require('./blogs');
+const blogDom = require('./blogDom');
 
-const firebaseKey = '';
+// const firebaseKey = '';
 
-const setKey = (key) => {
-  firebaseKey = key;
-};
+// const setKey = (key) => {
+//   firebaseKey = key;
+// };
 
 const setAllBlogPosts = () => {
-  blogs.loadAllBlogs().then((data) => {
-    $('.post').append(printBlogPosts(data.blogPosts));
+  firebaseApi.getAllBlogs()
+  .then((blogsArray) => {
+    blogDom.printBlogPosts();
   }).catch((error) => {
     console.error('error', error);
   });

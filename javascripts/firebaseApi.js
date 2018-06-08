@@ -4,15 +4,21 @@ const setConfig = (fbConfig) => {
   firebaseConfig = fbConfig;
 };
 
-const saveBlogPosts = (newPost) => {
+const getAllBlogs = () => {
   return new Promise((resolve, reject) => {
+    const blogsArray = [];
     $.ajax({
-      method: 'POST',
+      method: 'GET',
       url: `${firebaseConfig.databaseURL}/blogs.json`,
-      data: JSON.stringify(newPost),
     })
-      .done((uniqueKey) => {
-        resolve(uniqueKey);
+      .done((allBlogsObj) => {
+        if (allBlogsObj !== null) {
+          Object.keys(allBlogsObj).forEach((fbKey) => {
+            allBlogsObj[fbKey].id = fbKey;
+            blogsArray.push(allBlogsObj[fbKey]);
+          });
+        }
+        resolve(blogsArray);
       })
       .fail((error) => {
         reject(error);
@@ -22,4 +28,5 @@ const saveBlogPosts = (newPost) => {
 
 module.exports = {
   setConfig,
+  getAllBlogs,
 };
