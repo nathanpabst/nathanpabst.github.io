@@ -1,9 +1,10 @@
 const {retrieveKeys,} = require('./apiKeys');
-const {getAllBlogs,} = require('./firebaseApi');
+const {getAllBlogsEvent,} = require('./events');
 
 const initializer = () => {
-  retrieveKeys();
-  getAllBlogs();
+  retrieveKeys().then(() => {
+    getAllBlogsEvent();
+  });
 };
 
 initializer();
