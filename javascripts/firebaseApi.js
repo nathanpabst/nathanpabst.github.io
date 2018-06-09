@@ -7,10 +7,7 @@ const setConfig = (fbConfig) => {
 const getAllBlogs = () => {
   return new Promise((resolve, reject) => {
     const blogsArray = [];
-    $.ajax({
-      method: 'GET',
-      url: `${firebaseConfig.databaseURL}/blogs.json`,
-    })
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts.json`)
       .done((allBlogsObj) => {
         if (allBlogsObj !== null) {
           Object.keys(allBlogsObj).forEach((fbKey) => {

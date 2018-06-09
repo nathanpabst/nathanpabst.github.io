@@ -1,44 +1,29 @@
 {
     "projects": [{
-    "id": "project-1", 
-    "title": "Boulder", 
-    "imageUrl": "images/Boulder.jpeg",  
+    "title": "",
+    "thumbnail": "",
     "description": "This is the best project",
-    "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html" 
-    },
-    {
-    "id": "project-2", 
-    "title": "Chicago", 
-    "imageUrl": "images/chicago.jpeg", 
-    "description": "This is the best project",
+    "technologiesUsed": "",
+    "available": true,
+    "url": "https://....firebaseapp.com",
     "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
     },
     {
-    "id": "project-3", 
-    "title": "Kansas City", 
-    "imageUrl": "images/kansas_city.jpg", 
+    "title": "",
+    "thumbnail": "",
     "description": "This is the best project",
+    "technologiesUsed": "",
+    "available": true,
+    "url": "https://....firebaseapp.com",
     "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
     },
     {
-    "id": "project-4", 
-    "title": "Los Angeles", 
-    "imageUrl": "images/Los-Angeles.jpeg",
+    "title": "",
+    "thumbnail": "",
     "description": "This is the best project",
-    "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
-    },
-    {
-    "id": "project-5", 
-    "title": "Nashville", 
-    "imageUrl": "images/nashville.jpeg", 
-    "description": "This is the best project",
-    "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
-    },
-    {
-    "id": "project-6", 
-    "title": "Portland", 
-    "imageUrl": "images/portland.jpeg", 
-    "description": "This is the best project",
+    "technologiesUsed": "",
+    "available": true,
+    "url": "https://....firebaseapp.com",
     "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
     }]
 }

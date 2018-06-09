@@ -1,5 +1,13 @@
-const data = require('./data');
+const {retrieveKeys,} = require('./apiKeys');
+const {getAllBlogs,} = require('./firebaseApi');
 
-$(document).ready(() => {
-  data.initializer();
-});
+const initializer = () => {
+  retrieveKeys();
+  getAllBlogs();
+};
+
+initializer();
+
+module.exports = {
+  initializer,
+};
