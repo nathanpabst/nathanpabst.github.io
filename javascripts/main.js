@@ -1,5 +1,14 @@
-const data = require('./data');
+const {retrieveKeys,} = require('./apiKeys');
+const {getAllBlogsEvent,} = require('./events');
 
-$(document).ready(() => {
-  data.initializer();
-});
+const initializer = () => {
+  retrieveKeys().then(() => {
+    getAllBlogsEvent();
+  });
+};
+
+initializer();
+
+module.exports = {
+  initializer,
+};

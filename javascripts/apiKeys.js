@@ -1,11 +1,10 @@
-const data = require('./data');
 const firebaseApi = require('./firebaseApi');
 
 const apiKeys = () => {
   return new Promise((resolve, reject) => {
     $.ajax('./db/apiKeys.json')
       .done((data) => {
-        resolve(data.apiKeys);
+        resolve(data);
       })
       .fail((error) => {
         reject(error);
@@ -14,15 +13,17 @@ const apiKeys = () => {
 };
 
 const retrieveKeys = () => {
-  apiKeys()
-    .then((results) => {
-      data.setKey(results.data.apiKey);
-      firebaseApi.setConfig(results.firebase);
-      firebase.initializeApp(results.firebase);
-    })
-    .catch((error) => {
-      console.error('no keys', error);
-    });
+  return new Promise((resolve, reject) => {
+    apiKeys()
+      .then((results) => {
+        firebaseApi.setConfig(results.firebase);
+        firebase.initializeApp(results.firebase);
+        resolve();
+      })
+      .catch((error) => {
+        reject(error);
+      });
+  });
 };
 
 module.exports = {

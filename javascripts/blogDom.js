@@ -1,12 +1,12 @@
-const printBlogPosts = (blogPosts) => {
+const printBlogPosts = (posts) => {
   let output = '';
-  blogPosts.forEach((post) => {
-    output +=   `<div class="post">
-    output +=     <h2>${blogPosts.title}</h2>
-    output +=     <p>${blogPosts.post}</p>
-    output +=   </div>
-    output +=   <p class="byline"><span class="date">${blogPosts.date}</span></p>
-    output += </div>`;
+  posts.forEach((post) => {
+    output +=   `<div class="post">`;
+    output +=     `<h2>${post.title}</h2>`;
+    output +=     `<p>${post.post}</p>`;
+    output +=     `</div>`;
+    output +=     `<p class="byline"><span class="date">${post.date}</span></p>`;
+    output +=   `</div>`;
   });
   printToDom(output);
 };
