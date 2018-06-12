@@ -1,29 +1,31 @@
 {
     "projects": [{
-    "title": "",
-    "thumbnail": "",
-    "description": "This is the best project",
-    "technologiesUsed": "",
-    "available": true,
-    "url": "https://....firebaseapp.com",
-    "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
+      "project1": {
+        "title": "a",
+        "thumbnail": "aaa",
+        "description": "This is the best project",
+        "technologiesUsed": "aaa",
+        "available": true,
+        "url": "https://....firebaseapp.com",
+        "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
     },
-    {
-    "title": "",
-    "thumbnail": "",
-    "description": "This is the best project",
-    "technologiesUsed": "",
-    "available": true,
-    "url": "https://....firebaseapp.com",
-    "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
+    "project2": {
+        "title": "",
+        "thumbnail": "",
+        "description": "This is the best project",
+        "technologiesUsed": "",
+        "available": true,
+        "url": "https://....firebaseapp.com",
+        "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
     },
-    {
-    "title": "",
-    "thumbnail": "",
-    "description": "This is the best project",
-    "technologiesUsed": "",
-    "available": true,
-    "url": "https://....firebaseapp.com",
-    "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
+    "project3": {
+        "title": "",
+        "thumbnail": "",
+        "description": "This is the best project",
+        "technologiesUsed": "",
+        "available": true,
+        "url": "https://....firebaseapp.com",
+        "githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
+    }
     }]
 }

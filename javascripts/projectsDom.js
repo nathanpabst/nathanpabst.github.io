@@ -1,21 +1,22 @@
-// const printProjectCards = (projectsArray) => {
-//   let output = '';
-//   projectsArray.forEach((projects) => {
-//     // output += `<div class = "project" id="project-'+ (i+1) +'">`;
-//     output +=   `<div class='project'>`;
-//     output +=   `<h3>${projects.title}</h3>`;
-//     output +=   `<img class="image" src="${projects.imageUrl}">`;
-//     output +=   `<p>${projects.description}</p>`;
-//     output +=   `<a href=''>View project</a>`;
-//     output += `</div>`;
-//   });
-//   printToDom(output);
-// };
+const printProjects = (projectsArray) => {
+  let output = '';
+  projectsArray.forEach((project) => {
+    output += `<div class="projects">
+                <h3>${project.title}</h3>
+                <img class="image" src="${project.thumbnail}">
+                <p>${project.description}</p>
+                <p>${project.technologiesUsed}</p>
+                <a href="${project.url}">View Project</a>
+                <a href="${project.githubUrl}">GitHub Repository</a>
+              </div>`;
+  });
+  printToDom(output);
+};
 
-// const printToDom = (projects) => {
-//   $('#projects').html(projects);
-// };
+const printToDom = (projects) => {
+  $('#projects').html(projects);
+};
 
-// module.exports = {
-//   printProjectCards,
-// };
+module.exports = {
+  printProjects,
+};
