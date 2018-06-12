@@ -76,5 +76,11 @@
         "title": "Week Sixteen",
         "date": "6/01/18",
         "post": "This week we installed Firebase in a few of our projects and then talked about how to use it as a database to store and retrieve our information. We learned to setup and use relational data collections instead of nesting or using arrays inside our data models and discussed using the CRUD method to create, read, update, and delete information to/from our database. Next week we will dive deeper into updating and deleting information from Firebase. Good times."
+        },
+        {
+        "id": "blog14",
+        "title": "Week Seventeen",
+        "date": "6/11/18",
+        "post": "This week we learned how to deploy our projects using firebase. Before we deploy we need to bundle and make sure all files have the JS, CSS, and html needed and run grunt. In grunt, we need to create copy and clean tasks and make sure our .gitignore file isn’t included in the build/ directory.  From there we use the firebase init command in the root of our project and follow a few simple steps. I deployed a couple projects without issue over the weekend, but ran into an issue with my personal site. I was off by a couple errors in the command line that ended up being fine and accidentally called the grunt npm install commands in root of my project rather than within the lib directory."
         }]
     }
