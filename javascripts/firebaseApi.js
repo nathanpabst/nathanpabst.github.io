@@ -26,7 +26,7 @@ const getAllBlogs = () => {
 const getAllProjects = () => {
   return new Promise((resolve, reject) => {
     const projectsArray = [];
-    $.ajax(`${firebaseConfig.databaseURL}/projects`)
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/projects.json`)
       .done((allProjectsObj) => {
         if (allProjectsObj !== null) {
           Object.keys(allProjectsObj).forEach((fbKey) => {
