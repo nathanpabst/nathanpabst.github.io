@@ -1,5 +1,6 @@
-const {getAllBlogs,} = require('./firebaseApi');
+const {getAllBlogs, getAllProjects,} = require('./firebaseApi');
 const {printBlogPosts,} = require('./blogDom');
+const {printProjects,} = require('./projectsDom');
 
 const getAllBlogsEvent = () => {
   getAllBlogs()
@@ -11,6 +12,17 @@ const getAllBlogsEvent = () => {
     });
 };
 
+const getAllProjectsEvent = () => {
+  getAllProjects()
+    .then((projectsArray) => {
+      printProjects(projectsArray);
+    })
+    .catch((error) => {
+      console.error('error in retrieving projects', error);
+    });
+};
+
 module.exports = {
   getAllBlogsEvent,
+  getAllProjectsEvent,
 };

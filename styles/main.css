@@ -8,6 +8,16 @@ body {
     line-height: 125%;
     position: relative;
 }
+/**************NAVBAR******************/
+.navbar-brand {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.navbar-right {
+    font-size: 2em;
+    font-weight: 700;
+}
 
 .project {
     width: 300px;

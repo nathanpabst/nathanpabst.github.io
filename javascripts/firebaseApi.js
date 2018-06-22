@@ -23,7 +23,27 @@ const getAllBlogs = () => {
   });
 };
 
+const getAllProjects = () => {
+  return new Promise((resolve, reject) => {
+    const projectsArray = [];
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/projects.json`)
+      .done((allProjectsObj) => {
+        if (allProjectsObj !== null) {
+          Object.keys(allProjectsObj).forEach((fbKey) => {
+            allProjectsObj[fbKey].id = fbKey;
+            projectsArray.push(allProjectsObj[fbKey]);
+          });
+        }
+        resolve(projectsArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
 module.exports = {
   setConfig,
   getAllBlogs,
+  getAllProjects,
 };
