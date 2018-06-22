@@ -88,7 +88,7 @@
 			"project1": {
 				"id": "project1",
 				"title": "Movie Maker",
-				"thumbnail": "",
+				"thumbnail": "https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/4ed18b9881f34962e3481ce64e74900bc09edc80/screenshots/movie-maker.png",
 				"description": "This application is used to help aspiring film directors create budgets.",
 				"technologiesUsed": "HTML5, CSS3, Bootstrap, JavaScript/ES6, JSON, XHR, Node.JS/Grunt/Browserify, and DOM manipulation.",
 				"available": true,
@@ -97,7 +97,7 @@
 			},
 			"project2": {
 				"title": "Local Weather",
-				"thumbnail": "",
+				"thumbnail": "https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/4ed18b9881f34962e3481ce64e74900bc09edc80/screenshots/insta-weather.png",
 				"description": "This application is used to help users find the weather.",
 				"technologiesUsed": "HTML5, CSS3, Bootstrap, jQuery, JavaScript/ES6, JSON, AJAX, Node.JS/Grunt/Browserify, DOM manipulation, CRUD, authentication, databases, and Firebase deployment.",
 				"available": true,
@@ -106,7 +106,7 @@
 			},
 			"project3": {
 				"title": "Ex-Tracker",
-				"thumbnail": "",
+				"thumbnail": "https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/4ed18b9881f34962e3481ce64e74900bc09edc80/screenshots/ex-tracker.png",
 				"description": "This application is used to help me and others avoid running into one of my 'exes'.",
 				"technologiesUsed": "HTML5, CSS3, Bootstrap, jQuery, JavaScript/ES6, JSON, AJAX, Node.JS/Grunt/Browserify, and DOM manipulation.",
 				"available": true,
