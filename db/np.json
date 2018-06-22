@@ -93,7 +93,7 @@
 				"technologiesUsed": "HTML5, CSS3, Bootstrap, JavaScript/ES6, JSON, XHR, Node.JS/Grunt/Browserify, and DOM manipulation.",
 				"available": true,
 				"url": "https://movie-maker-5792c.firebaseapp.com/",
-				"githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
+				"githubUrl": "https://github.com/nathanpabst/movie-maker"
 			},
 			"project2": {
 				"title": "Local Weather",
@@ -102,7 +102,7 @@
 				"technologiesUsed": "HTML5, CSS3, Bootstrap, jQuery, JavaScript/ES6, JSON, AJAX, Node.JS/Grunt/Browserify, DOM manipulation, CRUD, authentication, databases, and Firebase deployment.",
 				"available": true,
 				"url": "https://local-weather-646f1.firebaseapp.com",
-				"githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
+				"githubUrl": "https://github.com/nathanpabst/local-weather"
 			},
 			"project3": {
 				"title": "Ex-Tracker",
@@ -111,7 +111,7 @@
 				"technologiesUsed": "HTML5, CSS3, Bootstrap, jQuery, JavaScript/ES6, JSON, AJAX, Node.JS/Grunt/Browserify, and DOM manipulation.",
 				"available": true,
 				"url": "https://ex-tracker-eca54.firebaseapp.com/",
-				"githubUrl": "https://github.com/nathanpabst/nathanpabst.github.io/blob/master/Projects.html"
+				"githubUrl": "https://github.com/nathanpabst/ex-tracker2"
 			}
 		}
 	}
