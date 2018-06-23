@@ -1,22 +1,32 @@
 /****************MAIN******************/
 body {
-    background-color: #6699CC;
+    /* background-color: #6699CC; */
+    background-color: #f5d27a;
     margin: 0 auto;
     /* padding: 5px 20px 5px 20px; */
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 14px;
+    font-size: 1.8em;
     line-height: 125%;
     position: relative;
 }
 /**************NAVBAR******************/
+
+.navbar {
+    background-color: #b9273a;
+}
 .navbar-brand {
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 1.7em;
+    padding-left: 20px;
 }
 
 .navbar-right {
     font-size: 2em;
     font-weight: 700;
+}
+
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* PROJECT THUMBNAIL STYLES */
@@ -40,7 +50,7 @@ body {
 /****************BLOG STYLES************/
 #sidebar {
     left: 0;
-    top: 0;
+    top: 16%;
     bottom: 0;
     position: fixed;
     overflow-y: auto;
@@ -51,6 +61,9 @@ body {
 }
 #flex-container {
     box-sizing: inherit;
+}
+.blogHeader {
+    padding: 30px;
 }
 .sidebar-content {
     clear: both;
@@ -71,14 +84,39 @@ body {
     max-width: 740px;
     margin: 0 auto;
 }
+h2 {
+    color: black;
+}
+
 p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin: 1.1em 0;
+    line-height: 1.5;
     color: #2c3e50;
+    font-weight: 700;
 }
 .byline {
     border-top: 1px solid black;
     width: 100%;
     font-size: .8em;
     font-weight: 600;
+    color: black;
+}
+
+/**************CONTACT SECTION*****************/
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+.contactImages {
+    max-width: 52px;
+    max-height: 52px;
+}
+
+ul {
+    list-style-type: none;
 }
