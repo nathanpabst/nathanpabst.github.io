@@ -40,13 +40,14 @@ body {
 /****************BLOG STYLES************/
 #sidebar {
     left: 0;
-    top: 53px;
+    top: 0;
     bottom: 0;
     position: fixed;
     overflow-y: auto;
     overflow-x: hidden;
     width: 320px;
     border-right: black 2px solid;
+    background-color: whitesmoke;
 }
 #flex-container {
     box-sizing: inherit;
