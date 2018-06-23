@@ -6,17 +6,11 @@ This application is used to help users learn more about me. On page load, the vi
 Concepts covered: HTML5, CSS3, Bootstrap, jQuery, JavaScript/ES6, JSON, AJAX, Node.JS/Grunt/Browserify, DOM manipulation, databases, and Firebase deployment.
 
 ## Screenshots
-View of the home page.
-![View of the home page.]()
-
-View of the professional history page.
-![View of the professional history page.]()
-
 View of the blog.
-![View of the blog.]()
+![View of the blog.](https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/3c82dee630d2b7aee5d360fea20662a7e214bac6/screenshots/Blog.png)
 
 View of the projects page.
-![View of the projects page.]()
+![View of the projects page.](https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/3c82dee630d2b7aee5d360fea20662a7e214bac6/screenshots/projects.png)
 
 ## Firebase Deploy
 Hosting site: https://my-website-4ecf9.firebaseapp.com
