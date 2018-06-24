@@ -4,6 +4,25 @@ const setConfig = (fbConfig) => {
   firebaseConfig = fbConfig;
 };
 
+const getAllJobs = () => {
+  return new Promise((resolve, reject) => {
+    const jobsArray = [];
+    $.ajax(`${firebaseConfig.databaseURL}/jobs.json`)
+      .done((allJobsObj) => {
+        if (allJobsObj !== null) {
+          Object.keys(allJobsObj).forEach((fbKey) => {
+            allJobsObj[fbKey].id = fbKey;
+            jobsArray.push(allJobsObj[fbKey]);
+          });
+        }
+        resolve(jobsArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
 const getAllBlogs = () => {
   return new Promise((resolve, reject) => {
     const blogsArray = [];
@@ -46,4 +65,5 @@ module.exports = {
   setConfig,
   getAllBlogs,
   getAllProjects,
+  getAllJobs,
 };
