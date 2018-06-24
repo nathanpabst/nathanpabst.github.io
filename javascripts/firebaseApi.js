@@ -7,7 +7,8 @@ const setConfig = (fbConfig) => {
 const getAllJobs = () => {
   return new Promise((resolve, reject) => {
     const jobsArray = [];
-    $.ajax(`${firebaseConfig.databaseURL}/jobs.json`)
+    console.log('fb', jobsArray);
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/projects/jobs.json`)
       .done((allJobsObj) => {
         if (allJobsObj !== null) {
           Object.keys(allJobsObj).forEach((fbKey) => {
