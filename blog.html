@@ -11,57 +11,30 @@
 </head>
 
 <body>
-    <header>
-        <div class="row">
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="row navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand text-uppercase navHomePage" href="./index.html">Nathan Pabst</a>              </div>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="collapse navbar-collapse white" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-left">
-                      <li><a class="navProfHistoryPage" href="./ProfessionalHistory.html">Professional History</a></li>
-                      <li><a class="navProjectsPage" href="./Projects.html">Projects</a></li>
-                      <li><a class="navBlogPage" href="./blog.html">Blog</a></li>
-                    </ul>
-                    </div>
-                    </div>
-                  </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-              </nav>
-        </div>
-      </header>
     <div id="flex-container">
       <div id="sidebar">
         <div class="header-top">
-          <h2 class="blogHeader">BLOG</h2>
+          <h2 class="blogHeader">Nathan's blog</h2>
         </div>
         <section class="sidebar-content">
           <div class="sidebar-widget">
-            <h2 class="widgetTitle">Connect</h2>
-            <div class="connectMenuContainer">
-              <ul id="connectMenu">
-                <li><a target="_blank" href="mailto:nathan.pabst@gmail.com">Email</a></li>
-
-                <li><a href="https://www.linkedin.com/in/nathan-pabst-8b08b03a/" target="blank">LinkedIn</a></li>
-                <li><a href="https://github.com/nathanpabst" target="blank">GitHub</a></li></ul>
-
-              </ul>
-            </div>
-          </div>
-        </div>
+            <ul class="nav nav-pills nav-stacked">
+              <li role="presentation"><a href="./index.html">Home</a></li>
+              <li role="presentation"><a href="./ProfessionalHistory.html">About</a></li>
+              <li role="presentation"><a href="./Projects.html">Projects</a></li>
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  Contact Me <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a target="_blank" href="mailto:nathan.pabst@gmail.com">Email</a></li>
+                    <li><a href="https://www.linkedin.com/in/nathan-pabst-8b08b03a/" target="blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/nathanpabst" target="blank">GitHub</a></li></ul>
+                </ul>
+              </li>
+            </ul>
         </section>
       </div>
+
       <div id="content-container">
         <div class="wrapper">
           <div class="post"></div>

@@ -50,20 +50,21 @@ body {
 /****************BLOG STYLES************/
 #sidebar {
     left: 0;
-    top: 16%;
+    top: 0;
     bottom: 0;
     position: fixed;
     overflow-y: auto;
     overflow-x: hidden;
     width: 320px;
-    border-right: black 2px solid;
-    background-color: whitesmoke;
+    /* border-right: black 2px solid; */
+    background-color: #b9273a;
 }
 #flex-container {
     box-sizing: inherit;
 }
 .blogHeader {
     padding: 30px;
+    color: white;
 }
 .sidebar-content {
     clear: both;
@@ -101,6 +102,11 @@ p {
     font-size: .8em;
     font-weight: 600;
     color: black;
+}
+
+.nav-pills a {
+    color: white;
+    background-color: #f5d27a;
 }
 
 /**************CONTACT SECTION*****************/
