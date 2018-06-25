@@ -4,6 +4,25 @@ const setConfig = (fbConfig) => {
   firebaseConfig = fbConfig;
 };
 
+const getEducation = () => {
+  return new Promise((resolve, reject) => {
+    const educationArray = [];
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/projects/jobs/education.json`)
+      .done((allEduObj) => {
+        if (allEduObj !== null) {
+          Object.keys(allEduObj).forEach((fbKey) => {
+            allEduObj[fbKey].id = fbKey;
+            educationArray.push(allEduObj[fbKey]);
+          });
+        }
+        resolve(educationArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
 const getAllJobs = () => {
   return new Promise((resolve, reject) => {
     const jobsArray = [];
@@ -67,4 +86,5 @@ module.exports = {
   getAllBlogs,
   getAllProjects,
   getAllJobs,
+  getEducation,
 };

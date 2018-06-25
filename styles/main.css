@@ -47,7 +47,51 @@ padding: 5px;
     text-align: center;
     width: 25%;
 }
+/****************RESUME STYLES**********/
+#resumeSidebar {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 320px;
+    background-color: #b9273a;
+}
+#flex-container {
+    box-sizing: inherit;
+}
 
+.sidebar-content {
+    clear: both;
+    padding: 30px;
+}
+.sidebar-widget {
+    margin-bottom: 30px;
+}
+.wrapper {
+    position: relative;
+}
+#content-container {
+    width: calc(100% - 320px);
+    margin-left: 320px;
+    padding: 0 120px;
+}
+li {
+    list-style-type: none;
+}
+.jobTitle {
+    color: white;
+}
+.companyName {
+    font-weight: 800;
+}
+.summary {
+    line-height: 1.5em;
+}
+.schoolName {
+    color: white;
+}
 /****************BLOG STYLES************/
 #sidebar {
     left: 0;
@@ -62,10 +106,7 @@ padding: 5px;
 #flex-container {
     box-sizing: inherit;
 }
-.blogHeader {
-    padding: 30px;
-    color: white;
-}
+
 .sidebar-content {
     clear: both;
     padding: 30px;
@@ -85,8 +126,9 @@ padding: 5px;
     max-width: 740px;
     margin: 0 auto;
 }
-h2 {
-    color: #19192F;
+
+.postTitle {
+    color: white;
 }
 
 p {
@@ -97,7 +139,7 @@ p {
     font-weight: 700;
 }
 .byline {
-    border-top: 1px solid black;
+    border-top: 1px solid white;
     width: 100%;
     font-size: .8em;
     font-weight: 600;
