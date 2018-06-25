@@ -4,6 +4,45 @@ const setConfig = (fbConfig) => {
   firebaseConfig = fbConfig;
 };
 
+const getEducation = () => {
+  return new Promise((resolve, reject) => {
+    const educationArray = [];
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/projects/jobs/education.json`)
+      .done((allEduObj) => {
+        if (allEduObj !== null) {
+          Object.keys(allEduObj).forEach((fbKey) => {
+            allEduObj[fbKey].id = fbKey;
+            educationArray.push(allEduObj[fbKey]);
+          });
+        }
+        resolve(educationArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
+const getAllJobs = () => {
+  return new Promise((resolve, reject) => {
+    const jobsArray = [];
+    console.log('fb', jobsArray);
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/projects/jobs.json`)
+      .done((allJobsObj) => {
+        if (allJobsObj !== null) {
+          Object.keys(allJobsObj).forEach((fbKey) => {
+            allJobsObj[fbKey].id = fbKey;
+            jobsArray.push(allJobsObj[fbKey]);
+          });
+        }
+        resolve(jobsArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
 const getAllBlogs = () => {
   return new Promise((resolve, reject) => {
     const blogsArray = [];
@@ -46,4 +85,6 @@ module.exports = {
   setConfig,
   getAllBlogs,
   getAllProjects,
+  getAllJobs,
+  getEducation,
 };
