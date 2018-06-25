@@ -29,7 +29,15 @@ padding: 5px;
     padding-bottom: 30px;
     color: white;
 }
-
+/***********HOME PAGE STYLES**************/
+.profilePic {
+    max-height: 340px;
+    height: auto;
+    border-radius: 50%;
+}
+.aboutText {
+    color: white;
+}
 /* PROJECT THUMBNAIL STYLES */
 .thumbnail {
     height: 700px;
