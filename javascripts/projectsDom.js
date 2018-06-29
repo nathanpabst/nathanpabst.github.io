@@ -1,7 +1,7 @@
 const printProjects = (projectsArray) => {
   let output = '';
   projectsArray.forEach((project) => {
-    output += `<div class="col-sm-8 col-md-4 projects">
+    output += `<div class="col-sm-4 projects">
                 <div class="thumbnail">
                   <h2 class="text-center">${project.title}</h2>
                   <img class="image" src="${project.thumbnail}">
