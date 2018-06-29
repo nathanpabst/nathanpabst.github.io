@@ -10,7 +10,7 @@ body {
 }
 /**************NAVBAR******************/
 
-.navbar {
+#mainNav {
     background-color: #b9273a;
 }
 
@@ -31,9 +31,9 @@ padding: 5px;
 }
 /***********HOME PAGE STYLES**************/
 .profilePic {
-    max-height: 340px;
-    height: auto;
+    height: 350px;
     border-radius: 50%;
+    max-width: 100%;
 }
 .aboutText {
     color: white;
