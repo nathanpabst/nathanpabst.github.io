@@ -39,11 +39,21 @@ padding: 5px;
     color: white;
 }
 /* PROJECT THUMBNAIL STYLES */
+.projects {
+    padding: 15px;
+}
+.thumbnail>img {
+    height: 200px;
+    width: 300px;
+}
 .thumbnail {
-    height: 700px;
-    width: 500px;
-    margin: 0 auto;
+    height: 500px;
+    width: 375px;
+    /* margin: 0 auto; */
   }
+.thumbnail>p {
+    font-size: 14px;
+}
 .projectBtns {
     color: #337ab7;
     padding: 8px;

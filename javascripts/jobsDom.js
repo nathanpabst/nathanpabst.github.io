@@ -14,7 +14,7 @@ const printEdu = (educationArray) => {
 
 const printJobs = (jobsArray) => {
   let output = '';
-  output += `<h2 class="workExperience">Work Experience</h2>`;
+  output += `<h2 class="workExperience">Previous Work Experience</h2>`;
   jobsArray.forEach((jobs) => {
     output +=   `<div class="job">
                   <h2 class="jobTitle">${jobs.role}</h2>
