@@ -1,5 +1,5 @@
 const {retrieveKeys,} = require('./apiKeys');
-const {getAllBlogsEvent, getAllProjectsEvent, getAllJobsEvent, getEducationEvent,} = require('./events');
+const {getAllBlogsEvent, getAllProjectsEvent, getAllJobsEvent, getEducationEvent, getTechnologiesEvent,} = require('./events');
 
 const initializer = () => {
   retrieveKeys().then(() => {
@@ -7,6 +7,7 @@ const initializer = () => {
     getAllProjectsEvent();
     getAllJobsEvent();
     getEducationEvent();
+    getTechnologiesEvent();
   });
 };
 
