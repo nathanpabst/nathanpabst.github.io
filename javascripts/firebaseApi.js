@@ -7,7 +7,7 @@ const setConfig = (fbConfig) => {
 const getTechnologies = () => {
   return new Promise((resolve, reject) => {
     const techArray = [];
-    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/blogPosts/projects/jobs/education/technologies.json`)
+    $.ajax(`${firebaseConfig.databaseURL}/technologies.json`)
       .done((allTechObj) => {
         if (allTechObj !== null) {
           Object.keys(allTechObj).forEach((fbKey) => {
@@ -27,7 +27,7 @@ const getTechnologies = () => {
 const getEducation = () => {
   return new Promise((resolve, reject) => {
     const educationArray = [];
-    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/blogPosts/projects/jobs/education.json`)
+    $.ajax(`${firebaseConfig.databaseURL}/education.json`)
       .done((allEduObj) => {
         if (allEduObj !== null) {
           Object.keys(allEduObj).forEach((fbKey) => {
@@ -47,7 +47,7 @@ const getAllJobs = () => {
   return new Promise((resolve, reject) => {
     const jobsArray = [];
     console.log('fb', jobsArray);
-    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/blogPosts/projects/jobs.json`)
+    $.ajax(`${firebaseConfig.databaseURL}/jobs.json`)
       .done((allJobsObj) => {
         if (allJobsObj !== null) {
           Object.keys(allJobsObj).forEach((fbKey) => {
@@ -66,7 +66,7 @@ const getAllJobs = () => {
 const getAllBlogs = () => {
   return new Promise((resolve, reject) => {
     const blogsArray = [];
-    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/blogPosts.json`)
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts.json`)
       .done((allBlogsObj) => {
         if (allBlogsObj !== null) {
           Object.keys(allBlogsObj).forEach((fbKey) => {
@@ -85,7 +85,7 @@ const getAllBlogs = () => {
 const getAllProjects = () => {
   return new Promise((resolve, reject) => {
     const projectsArray = [];
-    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/blogPosts/projects.json`)
+    $.ajax(`${firebaseConfig.databaseURL}/projects.json`)
       .done((allProjectsObj) => {
         if (allProjectsObj !== null) {
           Object.keys(allProjectsObj).forEach((fbKey) => {

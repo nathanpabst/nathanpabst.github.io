@@ -83,154 +83,154 @@
 			"title": "Authentication",
 			"date": "6/11/18",
 			"post": "This week we learned how to deploy our projects using firebase. Before we deploy we need to bundle and make sure all files have the JS, CSS, and html needed and run grunt. In grunt, we need to create copy and clean tasks and make sure our .gitignore file isn’t included in the build/ directory.  From there we use the firebase init command in the root of our project and follow a few simple steps. I deployed a couple projects without issue over the weekend, but ran into an issue with my personal site. I was off by a couple errors in the command line that ended up being fine and accidentally called the grunt npm install commands in root of my project rather than within the lib directory."
+		}
+	},
+	"projects": {
+		"project1": {
+			"id": "project1",
+			"title": "Movie Maker",
+			"thumbnail": "https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/4ed18b9881f34962e3481ce64e74900bc09edc80/screenshots/movie-maker.png",
+			"description": "This application is used to help aspiring film directors create budgets.",
+			"technologiesUsed": "HTML5, CSS3, Bootstrap, JavaScript/ES6, JSON, XHR, Node.JS/Grunt/Browserify, and DOM manipulation.",
+			"available": true,
+			"url": "https://movie-maker-5792c.firebaseapp.com/",
+			"githubUrl": "https://github.com/nathanpabst/movie-maker"
 		},
-		"projects": {
-			"project1": {
-				"id": "project1",
-				"title": "Movie Maker",
-				"thumbnail": "https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/4ed18b9881f34962e3481ce64e74900bc09edc80/screenshots/movie-maker.png",
-				"description": "This application is used to help aspiring film directors create budgets.",
-				"technologiesUsed": "HTML5, CSS3, Bootstrap, JavaScript/ES6, JSON, XHR, Node.JS/Grunt/Browserify, and DOM manipulation.",
-				"available": true,
-				"url": "https://movie-maker-5792c.firebaseapp.com/",
-				"githubUrl": "https://github.com/nathanpabst/movie-maker"
-			},
-			"project2": {
-				"title": "Local Weather",
-				"thumbnail": "https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/4ed18b9881f34962e3481ce64e74900bc09edc80/screenshots/insta-weather.png",
-				"description": "This application is used to help users find the weather.",
-				"technologiesUsed": "HTML5, CSS3, Bootstrap, jQuery, JavaScript/ES6, JSON, AJAX, Node.JS/Grunt/Browserify, DOM manipulation, CRUD, authentication, databases, and Firebase deployment.",
-				"available": true,
-				"url": "https://local-weather-646f1.firebaseapp.com",
-				"githubUrl": "https://github.com/nathanpabst/local-weather"
-			},
-			"project3": {
-				"title": "Ex-Tracker",
-				"thumbnail": "https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/4ed18b9881f34962e3481ce64e74900bc09edc80/screenshots/ex-tracker.png",
-				"description": "This application is used to help me and others avoid running into one of my 'exes'.",
-				"technologiesUsed": "HTML5, CSS3, Bootstrap, jQuery, JavaScript/ES6, JSON, AJAX, Node.JS/Grunt/Browserify, and DOM manipulation.",
-				"available": true,
-				"url": "https://ex-tracker-eca54.firebaseapp.com/",
-				"githubUrl": "https://github.com/nathanpabst/ex-tracker2"
-			},
-			"jobs": {
-				"job1": {
-					"id": "job1",
-					"role": "Manager, Systems and Business Operations",
-					"dates": "March 2018 - Present",
-					"company": "Ingram Content Group, TN",
-					"summary1": "Develop, manage, and enhance the platforms and systems that are integral to the business related to analyzing, supporting and improving the overall customer experience.",
-					"summary2": "Manage the development of detailed technical product specification and customer training materials, FAQs and related documentation in conjunction with the business units at Ingram Content Group.",
-					"summary3": "Develop key metrics, KPIs and reporting on customer trends and experiences to ensure projected targets for new accounts and revenue are met."
-				},
-				"job2": {
-					"id": "job2",
-					"role": "Business Operations Analyst",
-					"dates": "July 2016 - March 2018",
-					"company": "Ingram Content Group, TN",
-					"summary1": "Collect, analyze, and interpret business and operations revenue and departmental productivity.",
-					"summary2": "Recommend solutions to align individual business functions with organizational goals to improve business efficiency based upon analysis of relevant data.",
-					"summary3": "Lead projects within the department, coordinating participants and ensuring plans and projects are documented and targets are met."
-				},
-				"job3": {
-					"id": "job3",
-					"role": "Independent Publishing Specialist",
-					"dates": "2014 - 2016",
-					"company": "Ingram Content Group, TN",
-					"summary1": "Attended trade shows, screened new business opportunities, and developed leads",
-					"summary2": "Cultivated business relationships with relevant service providers by defining needs, researching and evaluating option, negotiating terms, finalizing deals, implementing plans,evaluating effectiveness, and adjusting accordingly.",
-					"summary3": "Monitored, identified, and evaluated weaknesses in services through reporting and created plans to improve the customer experience."
-				},
-				"job4": {
-					"id": "job4",
-					"role": "Marketing Manager",
-					"dates": "2012 - 2014",
-					"company": "Ingram Content Group, TN",
-					"summary1": "Developed, implemented, and created content for traditional and digital marketing campaigs including programs, activities, and trade show events.",
-					"summary2": "Managed all elements of the website resulting in month over month traffic growth of 21%.",
-					"summary3": "Developed and launched search engine marketing campaigns."
-				},
-				"job5": {
-					"id": "job5",
-					"role": "Publisher Advertising Representative",
-					"dates": "2009 - 2012",
-					"company": "Ingram Content Group, TN",
-					"summary1": "Obtained 114% of revenue-to-goal for 2011 resulting in a positive variance of $105,000.",
-					"summary2": "Analyzed market needs and integrated strategic advertising plans.",
-					"summary3": "Evaluated the success of advertising vehicles and forecasted budgets."
-				},
-				"education": {
-					"school1": {
-						"id": "school1",
-						"name": "Nashville Software School",
-						"dates": "February 2018 - Present",
-						"achievement": "Web Developer"
-					},
-					"school2": {
-						"id": "school2",
-						"name": "Belmont University",
-						"dates": "December 2006",
-						"achievement": "BA in Business Administration"
-					},
-					"technologies": {
-						"tech1": {
-							"id": "tech1",
-							"name": "Bootstrap",
-							"imgURL": "http://pluspng.com/img-png/bootstrap-logo-png-tweetboard-bootstrap-logo-png-250.png"
-						},
-						"tech2": {
-							"id": "tech2",
-							"name": "Browserify",
-							"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Browserify.svg/1200px-Browserify.svg.png"
-						},
-						"tech3": {
-							"id": "tech3",
-							"name": "Firebase",
-							"imgURL": "https://cdn.freebiesupply.com/logos/large/2x/firebase-1-logo-png-transparent.png"
-						},
-						"tech4": {
-							"id": "tech4",
-							"name": "GitHub",
-							"imgURL": "https://2sxc.org/Portals/0/adam/Content/4IqBjx3pXEC7a7-fVX2GBQ/Image/github-logo.png"
-						},
-						"tech5": {
-							"id": "tech5",
-							"name": "Grunt",
-							"imgURL": "https://gruntjs.com/img/og.png"
-						},
-						"tech6": {
-							"id": "tech6",
-							"name": "HTML5",
-							"imgURL": "https://pathowe.co.uk/wp-content/uploads/2017/02/HTML5.png"
-						},
-						"tech7": {
-							"id": "tech7",
-							"name": "JavaScript",
-							"imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
-						},
-						"tech8": {
-							"id": "tech8",
-							"name": "jQuery",
-							"imgURL": "https://logoeps.com/wp-content/uploads/2011/08/jquery-logo.jpg"
-						},
-						"tech9": {
-							"id": "tech9",
-							"name": "NPM",
-							"imgURL": "https://www.vectorlogo.zone/logos/npmjs/npmjs-tile.svg"
-						},
-						"tech10": {
-							"id": "tech10",
-							"name": "Sass",
-							"imgURL": "https://sass-lang.com/assets/img/styleguide/color-1c4aab2b.png"
-						},
-						"tech11": {
-							"id": "tech11",
-							"name": "React",
-							"imgURL": "https://appendto.com/wp-content/uploads/2016/05/React-1.png"
-						}
-					}
-				}
-			}
+		"project2": {
+			"title": "Local Weather",
+			"thumbnail": "https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/4ed18b9881f34962e3481ce64e74900bc09edc80/screenshots/insta-weather.png",
+			"description": "This application is used to help users find the weather.",
+			"technologiesUsed": "HTML5, CSS3, Bootstrap, jQuery, JavaScript/ES6, JSON, AJAX, Node.JS/Grunt/Browserify, DOM manipulation, CRUD, authentication, databases, and Firebase deployment.",
+			"available": true,
+			"url": "https://local-weather-646f1.firebaseapp.com",
+			"githubUrl": "https://github.com/nathanpabst/local-weather"
+		},
+		"project3": {
+			"title": "Ex-Tracker",
+			"thumbnail": "https://raw.githubusercontent.com/nathanpabst/nathanpabst.github.io/4ed18b9881f34962e3481ce64e74900bc09edc80/screenshots/ex-tracker.png",
+			"description": "This application is used to help me and others avoid running into one of my 'exes'.",
+			"technologiesUsed": "HTML5, CSS3, Bootstrap, jQuery, JavaScript/ES6, JSON, AJAX, Node.JS/Grunt/Browserify, and DOM manipulation.",
+			"available": true,
+			"url": "https://ex-tracker-eca54.firebaseapp.com/",
+			"githubUrl": "https://github.com/nathanpabst/ex-tracker2"
+		}
+	},
+	"jobs": {
+		"job1": {
+			"id": "job1",
+			"role": "Manager, Systems and Business Operations",
+			"dates": "March 2018 - Present",
+			"company": "Ingram Content Group, TN",
+			"summary1": "Develop, manage, and enhance the platforms and systems that are integral to the business related to analyzing, supporting and improving the overall customer experience.",
+			"summary2": "Manage the development of detailed technical product specification and customer training materials, FAQs and related documentation in conjunction with the business units at Ingram Content Group.",
+			"summary3": "Develop key metrics, KPIs and reporting on customer trends and experiences to ensure projected targets for new accounts and revenue are met."
+		},
+		"job2": {
+			"id": "job2",
+			"role": "Business Operations Analyst",
+			"dates": "July 2016 - March 2018",
+			"company": "Ingram Content Group, TN",
+			"summary1": "Collect, analyze, and interpret business and operations revenue and departmental productivity.",
+			"summary2": "Recommend solutions to align individual business functions with organizational goals to improve business efficiency based upon analysis of relevant data.",
+			"summary3": "Lead projects within the department, coordinating participants and ensuring plans and projects are documented and targets are met."
+		},
+		"job3": {
+			"id": "job3",
+			"role": "Independent Publishing Specialist",
+			"dates": "2014 - 2016",
+			"company": "Ingram Content Group, TN",
+			"summary1": "Attended trade shows, screened new business opportunities, and developed leads",
+			"summary2": "Cultivated business relationships with relevant service providers by defining needs, researching and evaluating option, negotiating terms, finalizing deals, implementing plans,evaluating effectiveness, and adjusting accordingly.",
+			"summary3": "Monitored, identified, and evaluated weaknesses in services through reporting and created plans to improve the customer experience."
+		},
+		"job4": {
+			"id": "job4",
+			"role": "Marketing Manager",
+			"dates": "2012 - 2014",
+			"company": "Ingram Content Group, TN",
+			"summary1": "Developed, implemented, and created content for traditional and digital marketing campaigs including programs, activities, and trade show events.",
+			"summary2": "Managed all elements of the website resulting in month over month traffic growth of 21%.",
+			"summary3": "Developed and launched search engine marketing campaigns."
+		},
+		"job5": {
+			"id": "job5",
+			"role": "Publisher Advertising Representative",
+			"dates": "2009 - 2012",
+			"company": "Ingram Content Group, TN",
+			"summary1": "Obtained 114% of revenue-to-goal for 2011 resulting in a positive variance of $105,000.",
+			"summary2": "Analyzed market needs and integrated strategic advertising plans.",
+			"summary3": "Evaluated the success of advertising vehicles and forecasted budgets."
+		}
+	},
+	"education": {
+		"school1": {
+			"id": "school1",
+			"name": "Nashville Software School",
+			"dates": "February 2018 - Present",
+			"achievement": "Web Developer"
+		},
+		"school2": {
+			"id": "school2",
+			"name": "Belmont University",
+			"dates": "December 2006",
+			"achievement": "BA in Business Administration"
+		}
+	},
+	"technologies": {
+		"tech1": {
+			"id": "tech1",
+			"name": "Bootstrap",
+			"imgURL": "http://pluspng.com/img-png/bootstrap-logo-png-tweetboard-bootstrap-logo-png-250.png"
+		},
+		"tech2": {
+			"id": "tech2",
+			"name": "Browserify",
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Browserify.svg/1200px-Browserify.svg.png"
+		},
+		"tech3": {
+			"id": "tech3",
+			"name": "Firebase",
+			"imgURL": "https://cdn.freebiesupply.com/logos/large/2x/firebase-1-logo-png-transparent.png"
+		},
+		"tech4": {
+			"id": "tech4",
+			"name": "GitHub",
+			"imgURL": "https://2sxc.org/Portals/0/adam/Content/4IqBjx3pXEC7a7-fVX2GBQ/Image/github-logo.png"
+		},
+		"tech5": {
+			"id": "tech5",
+			"name": "Grunt",
+			"imgURL": "https://gruntjs.com/img/og.png"
+		},
+		"tech6": {
+			"id": "tech6",
+			"name": "HTML5",
+			"imgURL": "https://pathowe.co.uk/wp-content/uploads/2017/02/HTML5.png"
+		},
+		"tech7": {
+			"id": "tech7",
+			"name": "JavaScript",
+			"imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+		},
+		"tech8": {
+			"id": "tech8",
+			"name": "jQuery",
+			"imgURL": "https://logoeps.com/wp-content/uploads/2011/08/jquery-logo.jpg"
+		},
+		"tech9": {
+			"id": "tech9",
+			"name": "NPM",
+			"imgURL": "https://www.vectorlogo.zone/logos/npmjs/npmjs-tile.svg"
+		},
+		"tech10": {
+			"id": "tech10",
+			"name": "Sass",
+			"imgURL": "https://sass-lang.com/assets/img/styleguide/color-1c4aab2b.png"
+		},
+		"tech11": {
+			"id": "tech11",
+			"name": "React",
+			"imgURL": "https://appendto.com/wp-content/uploads/2016/05/React-1.png"
 		}
 	}
 }
