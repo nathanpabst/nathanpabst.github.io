@@ -4,10 +4,30 @@ const setConfig = (fbConfig) => {
   firebaseConfig = fbConfig;
 };
 
+const getTechnologies = () => {
+  return new Promise((resolve, reject) => {
+    const techArray = [];
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/blogPosts/projects/jobs/education/technologies.json`)
+      .done((allTechObj) => {
+        if (allTechObj !== null) {
+          Object.keys(allTechObj).forEach((fbKey) => {
+            allTechObj[fbKey].id = fbKey;
+            techArray.push(allTechObj[fbKey]);
+            console.log('fb', techArray);
+          });
+        }
+        resolve(techArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
 const getEducation = () => {
   return new Promise((resolve, reject) => {
     const educationArray = [];
-    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/projects/jobs/education.json`)
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/blogPosts/projects/jobs/education.json`)
       .done((allEduObj) => {
         if (allEduObj !== null) {
           Object.keys(allEduObj).forEach((fbKey) => {
@@ -27,7 +47,7 @@ const getAllJobs = () => {
   return new Promise((resolve, reject) => {
     const jobsArray = [];
     console.log('fb', jobsArray);
-    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/projects/jobs.json`)
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/blogPosts/projects/jobs.json`)
       .done((allJobsObj) => {
         if (allJobsObj !== null) {
           Object.keys(allJobsObj).forEach((fbKey) => {
@@ -46,7 +66,7 @@ const getAllJobs = () => {
 const getAllBlogs = () => {
   return new Promise((resolve, reject) => {
     const blogsArray = [];
-    $.ajax(`${firebaseConfig.databaseURL}/blogPosts.json`)
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/blogPosts.json`)
       .done((allBlogsObj) => {
         if (allBlogsObj !== null) {
           Object.keys(allBlogsObj).forEach((fbKey) => {
@@ -65,7 +85,7 @@ const getAllBlogs = () => {
 const getAllProjects = () => {
   return new Promise((resolve, reject) => {
     const projectsArray = [];
-    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/projects.json`)
+    $.ajax(`${firebaseConfig.databaseURL}/blogPosts/blogPosts/projects.json`)
       .done((allProjectsObj) => {
         if (allProjectsObj !== null) {
           Object.keys(allProjectsObj).forEach((fbKey) => {
@@ -87,4 +107,5 @@ module.exports = {
   getAllProjects,
   getAllJobs,
   getEducation,
+  getTechnologies,
 };
