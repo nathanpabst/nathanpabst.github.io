@@ -83,6 +83,18 @@
 			"title": "Authentication",
 			"date": "6/11/18",
 			"post": "This week we learned how to deploy our projects using firebase. Before we deploy we need to bundle and make sure all files have the JS, CSS, and html needed and run grunt. In grunt, we need to create copy and clean tasks and make sure our .gitignore file isn’t included in the build/ directory.  From there we use the firebase init command in the root of our project and follow a few simple steps. I deployed a couple projects without issue over the weekend, but ran into an issue with my personal site. I was off by a couple errors in the command line that ended up being fine and accidentally called the grunt npm install commands in root of my project rather than within the lib directory."
+		},
+		"blog15": {
+			"id": "blog15",
+			"title": "SASS",
+			"date": "6/23/18",
+			"post": "Sass, or syntactically awesome stylesheets, is a CSS preprocessor. We learned the SCSS syntax, which is a component based architecture that allows us to compartmentalize and reuse styles. Sass also includes features that aren't available in CSS. For example, nesting,variables, inheritance, mixins, partials and imports. We didn't spend a lot of time with this topic, but it seems to be a much more efficient and organized method of implementing styles into our projects."
+		},
+		"blog16": {
+			"id": "blog16",
+			"title": "Frameworks",
+			"date": "7/3/18",
+			"post": "This week we were introduced to JavaScript frameworks. i.e. Vue, Angular, and React. A framework is a collection of components and libraries to fulfill the needs of a single page web application and makes getting and displaying data easier. What I like most is that frameworks add organization and structure to applications. We chose to use React for our projects because it is the number one requested framework among Nashville employers and it uses the most advanced ES7 concepts which will strengthen our JS skills. A few of the pros to using React are: the virtual DOM, it's core and companion libraries, and component based nature. React also has a very strong support community and agreed upon code standards, which brings more clarity around where and how code should be written. Learning React has certainly been a challenge. Setting up new projects is completely different than what we've been accustomed to up to this point, our thinking has shifted to a more component based approach code. One of the biggest obstacles for me this week, in addition to all the new terms like render, JSX, props, state, and the lifecycle methods, has been understanding the file naming conventions--which at times are the same with the exception of a capitalized letter (for example, listings.js and Listings.js) and how each component ties into the project. The learning curve is steep, but I am encouraged by the more organized approach."
 		}
 	},
 	"projects": {
@@ -167,7 +179,7 @@
 			"id": "school1",
 			"name": "Nashville Software School",
 			"dates": "February 2018 - Present",
-			"achievement": "Web Developer"
+			"achievement": "Part-Time Web Developer Bootcamp"
 		},
 		"school2": {
 			"id": "school2",
