@@ -95,6 +95,12 @@
 			"title": "Frameworks",
 			"date": "7/3/18",
 			"post": "This week we were introduced to JavaScript frameworks. i.e. Vue, Angular, and React. A framework is a collection of components and libraries to fulfill the needs of a single page web application and makes getting and displaying data easier. What I like most is that frameworks add organization and structure to applications. We chose to use React for our projects because it is the number one requested framework among Nashville employers and it uses the most advanced ES7 concepts which will strengthen our JS skills. A few of the pros to using React are: the virtual DOM, it's core and companion libraries, and component based nature. React also has a very strong support community and agreed upon code standards, which brings more clarity around where and how code should be written. Learning React has certainly been a challenge. Setting up new projects is completely different than what we've been accustomed to up to this point, our thinking has shifted to a more component based approach code. One of the biggest obstacles for me this week, in addition to all the new terms like render, JSX, props, state, and the lifecycle methods, has been understanding the file naming conventions--which at times are the same with the exception of a capitalized letter (for example, listings.js and Listings.js) and how each component ties into the project. The learning curve is steep, but I am encouraged by the more organized approach."
+		},
+		"blog17": {
+			"id": "blog17",
+			"title": "React",
+			"date": "7/10/18",
+			"post": "This week we focused on how to divide a page into sections and then create a component for each section. We also spent a lot of time walking through axios requests to Firebase for GET and POST. On Saturday, we learned about routing--which is basically the ability to switch views in and out within a single page application based upon how the user is interacting with the page. To achieve this we installed the react-router-dom. Keywords for Saturday: Browser Router, Switch, Route, and Redirect."
 		}
 	},
 	"projects": {
